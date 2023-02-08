@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "slug" :"Wedding-Gown",
+    "proImg": "/images/product/1.jpg",
+    "psImg": "/images/product/s1.jpg",
+    "title": "Wedding Gown",
+    "price": "340.00",
+    "delPrice": "380.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  },
+  {
+    "id": 2,
+    "slug" :"Bridal-Flower",
+    "proImg": "/images/product/2.jpg",
+    "psImg": "/images/product/s2.jpg",
+    "title": "Bridal Flower",
+    "price": "65.00",
+    "delPrice": "85.00",
+    "brand":"Gucci",
+    "size":"XXl"
+  },
+  {
+    "id": 3,
+    "slug" :"Bridal-Shoes",
+    "proImg": "/images/product/3.jpg",
+    "psImg": "/images/product/s3.jpg",
+    "title": "Bridal Shoes",
+    "price": "285.00",
+    "delPrice": "300.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 4,
+    "slug" :"Wedding-Cake",
+    "proImg": "/images/product/4.jpg",
+    "psImg": "/images/product/s4.jpg",
+    "title": "Wedding Cake",
+    "price": "176.00",
+    "delPrice": "178.00",
+    "brand":"Gucci",
+    "size":"M"
+  },
+  {
+    "id": 5,
+    "slug" :"Bride’s-Crown",
+    "proImg": "/images/product/5.jpg",
+    "psImg": "/images/product/s5.jpg",
+    "title": "Bride’s Crown",
+    "price": "125.00",
+    "delPrice": "130.00",
+    "brand":"Gucci",
+    "size":"XXl"
+  },
+  {
+    "id": 6,
+    "slug" :"Wedding-Rings",
+    "proImg": "/images/product/6.jpg",
+    "psImg": "/images/product/s6.jpg",
+    "title": "Wedding Rings",
+    "price": "548.00",
+    "delPrice": "600.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  },
+  {
+    "id": 7,
+    "slug" :"Wedding-Dress",
+    "proImg": "/images/product/7.jpg",
+    "psImg": "/images/product/s7.jpg",
+    "title": "Wedding Dress",
+    "price": "380.00",
+    "delPrice": "400.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  },
+  {
+    "id": 8,
+    "slug" :"Hair-Style",
+    "proImg": "/images/product/8.jpg",
+    "psImg": "/images/product/s8.jpg",
+    "title": "Hair Style",
+    "price": "290.00",
+    "delPrice": "300.00",
+    "brand":"Gucci",
+    "size":"XX"
+  },
+  {
+    "id": 9,
+    "slug" :"Wedding-Cake",
+    "proImg": "/images/product/4.jpg",
+    "psImg": "/images/product/s4.jpg",
+    "title": "Wedding Cake",
+    "price": "176.00",
+    "delPrice": "178.00",
+    "brand":"Gucci",
+    "size":"M"
+  },
+  {
+    "id": 14,
+    "slug" :"Wedding-Cake",
+    "proImg": "/images/product/9.jpg",
+    "psImg": "/images/product/s9.jpg",
+    "title": "Heavy Work Gown",
+    "price": "285",
+    "delPrice": "295.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 10,
+    "slug" :"Heavy-Work-Gown",
+    "proImg": "/images/product/10.jpg",
+    "psImg": "/images/product/s10.jpg",
+    "title": "Heavy Work Gown",
+    "price": "285",
+    "delPrice": "295.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 11,
+    "slug" :"Simple-Gown",
+    "proImg": "/images/product/11.jpg",
+    "psImg": "/images/product/s11.jpg",
+    "title": "Simple Gown",
+    "price": "165",
+    "delPrice": "175.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 12,
+    "slug" :"Back-Deep-Cut",
+    "proImg": "/images/product/12.jpg",
+    "psImg": "/images/product/s12.jpg",
+    "title": "Back Deep Cut",
+    "price": "125",
+    "delPrice": "185.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 13,
+    "slug" :"Pearl-Work-Gown",
+    "proImg": "/images/product/13.jpg",
+    "psImg": "/images/product/s13.jpg",
+    "title": "Pearl Work Gown",
+    "price": "548",
+    "delPrice": "585.00",
+    "brand":"Gucci",
+    "size":"L"
+  }
+]

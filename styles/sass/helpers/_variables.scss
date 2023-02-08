@@ -1,0 +1,58 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,800&display=swap");
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../../../fonts/FuturaPT-Demi.woff2') format('woff2'),
+      url('../../../fonts/FuturaPT-Demi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../../../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+      url('../../../fonts/FuturaPT-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../../../fonts/FuturaPT-Medium.woff2') format('woff2'),
+      url('../../../fonts/FuturaPT-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Muli';
+$heading-font: 'Futura PT';
+
+
+
+// color
+$dark-gray: #002642;
+$body-color: #848892;
+$white: #fff;
+$light: #8188a9;
+$black: #000;
+$small-black: #333;
+$cyan: #848892;
+
+$theme-primary-color: #86a0b6;
+$theme-primary-color-s2: #738ea5;
+$body-bg-color: #fff;
+$section-bg-color: #edf3f8;
+$text-color: #6e6e6e;
+$text-light-color: #7b7b7b;
+$heading-color: $dark-gray;
+$border-color: #ebebeb;
+$border-color-s2: #e4ebf2;
