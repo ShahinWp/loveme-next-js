@@ -1,22 +1,15 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
-  static getInitialProps ({ renderPage }) {
-    // Returns an object like: { html, head, errorHtml, chunks, styles }     
-    return renderPage();
-  }
-
-  render () {    
+  render() {
     return (
-      <html>
-        <Head>
-          <title>Loveme - Wedding & Wedding Planner Next Js Template</title>
-        </Head>
+      <Html>
+        <Head/>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }

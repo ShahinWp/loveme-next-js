@@ -12,15 +12,21 @@ import { Provider } from "react-redux";
 import 'photoswipe/dist/photoswipe.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <Component {...pageProps} />
-        <ToastContainer />
-      </PersistGate>
-    </Provider>
+    <div>
+      <Head>
+        <title>Loveme - Wedding & Wedding Planner Next Js Template</title>
+      </Head>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <Component {...pageProps} />
+          <ToastContainer />
+        </PersistGate>
+      </Provider>
+    </div>
 
   )
 }

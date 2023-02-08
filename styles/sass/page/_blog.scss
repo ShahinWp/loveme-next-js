@@ -278,7 +278,7 @@
 		&:before {
 			content: "";
 			background-color: $theme-primary-color;
-			@include linear-gradient-bg(left, $theme-primary-color-s2, $theme-primary-color);
+			@include linear-gradient-bg(to right, $theme-primary-color, $theme-primary-color-s2);
 			width: 100%;
 			height: 100%;
 			position: absolute;
