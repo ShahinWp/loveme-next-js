@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "../store/index";
 import { Provider } from "react-redux";
-import 'photoswipe/dist/photoswipe.css'
+import 'react-image-lightbox/style.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";

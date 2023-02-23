@@ -2,21 +2,24 @@
 html {
     font-size: $base-font-size + px;
 }
+
 :root {
     scroll-behavior: unset;
 }
+
 body {
     font-family: $base-font;
-    color:$body-color;
+    color: $body-color;
     background-color: $body-bg-color;
     font-size: 15px;
     overflow-x: hidden;
-    @include media-query( 767px ) {
+
+    @include media-query(767px) {
         font-size: 14px;
     }
 }
 
-#__next{
+#__next {
     overflow: hidden;
 }
 
@@ -59,30 +62,30 @@ img {
     height: auto;
 }
 
-.pswp__img{
-   height: auto!important;
-   cursor: pointer;
+.pswp__img {
+    height: auto !important;
+    cursor: pointer;
 }
 
-.wpo-box-style{
-    padding:0 60px;
+.wpo-box-style {
+    padding: 0 60px;
 
-    @media(max-width:991px){
-        padding:0 30px;
+    @media(max-width:991px) {
+        padding: 0 30px;
     }
 
-    @media(max-width:575px){
-        padding:0 0px;
+    @media(max-width:575px) {
+        padding: 0 0px;
     }
 }
 
-.container{
-    @media(min-width:1440px){
+.container {
+    @media(min-width:1440px) {
         max-width: 1170px;
     }
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -109,10 +112,11 @@ img {
 .section-padding {
     padding: 120px 0;
 
-    @include media-query( 991px ) {
+    @include media-query(991px) {
         padding: 90px 0;
     }
-    @include media-query( 767px ) {
+
+    @include media-query(767px) {
         padding: 80px 0;
     }
 }
@@ -120,7 +124,7 @@ img {
 .pt-120 {
     padding-top: 120px;
 
-    @include media-query( 767px ) {
+    @include media-query(767px) {
         padding-top: 80px;
     }
 }
@@ -167,7 +171,7 @@ img {
         text-align: center;
         display: none;
 
-        @include media-query(767px)  {
+        @include media-query(767px) {
             font-size: 15px;
         }
     }
@@ -211,8 +215,8 @@ img {
 }
 
 .rotating {
-  -webkit-animation: rotating 5s alternate infinite;
-  animation: rotating 5s alternate infinite;
+    -webkit-animation: rotating 5s alternate infinite;
+    animation: rotating 5s alternate infinite;
 }
 
 
@@ -272,6 +276,7 @@ img {
 .mfp-with-zoom.mfp-ready .mfp-container {
     opacity: 1;
 }
+
 .mfp-with-zoom.mfp-ready.mfp-bg {
     opacity: 0.8;
 }
@@ -283,12 +288,12 @@ img {
 
 /*** for fancybox video ***/
 .fancybox-overlay {
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 9999 !important;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999 !important;
 }
 
 .fancybox-wrap {
-  z-index: 99999 !important;
+    z-index: 99999 !important;
 }
 
 
@@ -296,27 +301,29 @@ img {
 ul.smothscroll {
     position: fixed;
     bottom: 25px;
-    right:30px;
+    right: 30px;
     list-style: none;
     z-index: 99999;
 }
+
 ul.smothscroll a {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    border-radius:50%;
+    border-radius: 50%;
     display: block;
     text-align: center;
     color: #fff;
     background-color: rgba(134, 160, 182, 0.7);
     border: 2px solid #86a0b6;
 }
+
 ul.smothscroll a:hover {
     background-color: #86a0b6;
     color: #fff;
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
     ul.smothscroll a {
         width: 30px;
         height: 30px;
@@ -367,4 +374,9 @@ ul.smothscroll a:hover {
             height: 200px;
         }
     }
+}
+
+
+.ReactModal__Overlay {
+    z-index: 9999 !important;
 }
